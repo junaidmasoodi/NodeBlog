@@ -1,0 +1,22 @@
+{
+  "name": "Blogging Platform",
+  "version": "1.0.0",
+  "description": "Lightweight node based blogging platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Junaid Masoodi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-validator": "*",
+    "express-handlebars": "*",
+    "connect-flash":"*",
+    "express-session":"*",
+    "moment": "*",
+    "multer": "*",
+    "mysql": "*"
+  }
+}
